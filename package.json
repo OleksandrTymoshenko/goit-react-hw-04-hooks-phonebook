@@ -2,7 +2,7 @@
   "name": "goit-react-hw-04-hooks-phonebook",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook.git",
+  "homepage": "https://github.com/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
