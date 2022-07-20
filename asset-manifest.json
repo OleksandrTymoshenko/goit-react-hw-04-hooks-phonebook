@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook/static/css/main.2928b2fe.css",
-    "main.js": "/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook/static/js/main.b5cd36cd.js",
-    "static/js/787.9cb3da5d.chunk.js": "/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook/static/js/787.9cb3da5d.chunk.js",
-    "index.html": "/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook/index.html",
-    "main.2928b2fe.css.map": "/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook/static/css/main.2928b2fe.css.map",
-    "main.b5cd36cd.js.map": "/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook/static/js/main.b5cd36cd.js.map",
-    "787.9cb3da5d.chunk.js.map": "/OleksandrTymoshenko/goit-react-hw-04-hooks-phonebook/static/js/787.9cb3da5d.chunk.js.map"
+    "main.css": "/goit-react-hw-04-hooks-phonebook/static/css/main.2928b2fe.css",
+    "main.js": "/goit-react-hw-04-hooks-phonebook/static/js/main.66ec5b5b.js",
+    "static/js/787.9cb3da5d.chunk.js": "/goit-react-hw-04-hooks-phonebook/static/js/787.9cb3da5d.chunk.js",
+    "index.html": "/goit-react-hw-04-hooks-phonebook/index.html",
+    "main.2928b2fe.css.map": "/goit-react-hw-04-hooks-phonebook/static/css/main.2928b2fe.css.map",
+    "main.66ec5b5b.js.map": "/goit-react-hw-04-hooks-phonebook/static/js/main.66ec5b5b.js.map",
+    "787.9cb3da5d.chunk.js.map": "/goit-react-hw-04-hooks-phonebook/static/js/787.9cb3da5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2928b2fe.css",
-    "static/js/main.b5cd36cd.js"
+    "static/js/main.66ec5b5b.js"
   ]
 }
