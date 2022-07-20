@@ -8,7 +8,7 @@ export function ContactForm({contacts, addContact}) {
   const [isDisabled, setIsDisabled] = useState(false);
 
  const onInputChange = e => {
-   let { name, value } = e.currentTarget; // *? Возможно фиксить логику...
+   let { name, value } = e.currentTarget;
    setIsDisabled(false)
    switch (name) {
      case 'name':
@@ -21,7 +21,6 @@ export function ContactForm({contacts, addContact}) {
        break;
    }
    
-    // this.setState({ [name]: value }); // *? Возможно фиксить логику...
     let finder = contacts.find(
       contact =>
         contact.name.toLowerCase() === value.toLowerCase() ||
@@ -31,7 +30,6 @@ export function ContactForm({contacts, addContact}) {
       setIsDisabled(true)
      alert(`${value} is already in contacts.`);
      setName('');
-      // this.setState({ [name]: '' }); // *? Возможно фиксить логику...
     }
   };
 
@@ -49,8 +47,7 @@ export function ContactForm({contacts, addContact}) {
     };
 
     addContact(contact);
-   resetForm();  // * Скорей всего нужно будет заменить вызов функции
-  
+   resetForm();   
   };
 
     return (
