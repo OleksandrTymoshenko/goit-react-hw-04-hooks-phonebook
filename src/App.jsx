@@ -1,9 +1,8 @@
 import {useState, useEffect} from 'react';
-import Contacts from './Contacts/Contacts';
-import styles from './styles.module.css';
-import { Filter } from './Filter/Filter';
-
-import { ContactForm } from './ContactForm/ContactForm';
+import Contacts from './components/Contacts/Contacts';
+import styles from './components/styles.module.css';
+import { Filter } from './components/Filter/Filter';
+import { ContactForm } from './components/ContactForm/ContactForm';
 
 export function App() {
   const [contacts, setContacts] = useState([]);

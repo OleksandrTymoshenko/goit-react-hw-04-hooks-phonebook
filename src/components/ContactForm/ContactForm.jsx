@@ -7,30 +7,6 @@ export function ContactForm({contacts, addContact}) {
   const [number, setNumber] = useState('');
   const [isDisabled, setIsDisabled] = useState(false);
 
-  // onNameChange = e => {
-  //   this.setState({ isDisabled: false });
-  //   this.setState({ name: e.currentTarget.value });
-  //   let name = e.currentTarget.value;
-  //   let finder = this.props.contacts.find(contact => contact.name === name);
-  //   if (finder) {
-  //     this.setState({ isDisabled: true });
-  //     alert('Такой уже есть');
-  //     this.setState({ name: '' });
-  //   }
-  // };
-
-  // onNumberChange = e => {
-  //   this.setState({ isDisabled: false });
-  //   this.setState({ number: e.currentTarget.value });
-  //   let number = e.currentTarget.value;
-  //   let finder = this.props.contacts.find(contact => contact.number === number);
-  //   if (finder) {
-  //     this.setState({ isDisabled: true });
-  //     alert('Такой уже есть');
-  //     this.setState({ number: '' });
-  //   }
-  // };
-
  const onInputChange = e => {
    let { name, value } = e.currentTarget; // *? Возможно фиксить логику...
    setIsDisabled(false)
